@@ -1,0 +1,33 @@
+.topo{
+    border: 2px solid black;
+}
+
+.nav1{
+    background-color: #000;
+    color: #FFF;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.nav2{
+    display: flex;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.logo img{
+    width: 350px;
+}
+
+.navs{
+    border: 1px solid rgb(0, 0, 0);
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.navs:hover{
+    color: white;
+    background-color: #000;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Machu Picchu [2024]</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div style="border:1px solid black">
+        <div style="border: 2px solid #FF0000;
+                    background-color: #000;
+                    color: #FFF;
+                    padding: 20px;
+                    font-size: 25px;">
+            Hotéis | Seguro Viagem | Chip Internacional
+        </div>
+        <div style="border: 2px solid green;
+                    display: flex;
+                    padding: 20px;">
+            <div style="width: 100px"></div>
+            <div>Logo</div>
+            <div>
+                <div style="border: 1px solid black;
+                            margin: 10px;
+                            padding: 10px;">
+                    Brasil
+                </div>
+            </div>
+            <div>Europa</div>
+            <div>Caribe</div>
+        </div>
+        Dicas de Viagem
+    </div>
+</body>
+
+</html>
