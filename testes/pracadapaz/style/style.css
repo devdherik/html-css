@@ -16,21 +16,18 @@ body, html{
 .titles{
     position: absolute;
     top: 40%;
-    left: 100px;
-    font-size: clamp(1em + 1vw, 1em + 3vw, 1vw);
-   
-    white-space: nowrap; /* impede que o texto quebre a linha */
+    left: 10%;
 }
 
 .titles > p{
     color: rgb(0, 255, 34);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
-    font-size: 1.5em;
+    font-size: 5vw;
 }
 
 .titles > h1{
     color: rgb(255, 255, 255);
     letter-spacing: 2px;
-    font-size: 5em;
+    font-size: 9vw;
 }
