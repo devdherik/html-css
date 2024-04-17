@@ -6,10 +6,15 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: red;
+.background{
+    
+    background-image: url(imagens/bg-static.JPG);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
-
 main div{
     position: relative;
     top: 400px;
