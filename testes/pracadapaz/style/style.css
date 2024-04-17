@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    background-image: url(../sources/bg-static.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.titles{
+    position: absolute;
+    top: 40%;
+    left: 100px;
+    font-size: clamp(1em + 1vw, 1em + 3vw, 1vw);
+   
+    white-space: nowrap; /* impede que o texto quebre a linha */
+}
+
+.titles > p{
+    color: rgb(0, 255, 34);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+}
+
+.titles > h1{
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 5em;
+}
