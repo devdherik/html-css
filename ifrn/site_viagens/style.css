@@ -1,14 +1,49 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.barra-md{
+.topo{
     background-color: #144194;
-    width: 100vw;
-    height: 8vh;
     text-align: center;
-    padding-top: 3px;
-    margin: auto;
-    box-shadow: 0px 8px 50px 10px rgba(0, 0, 0, 0.486);
+    padding: 12px 0px 8px 0px;
+    box-shadow: 20px 20px 20px 20px black;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image:url(imgs/machu-picchu-61-c.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0));
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
 }
