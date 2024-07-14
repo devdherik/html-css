@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.content{
+    min-width: 100vw;
+}
+
 .topo{
     background-color: #144194;
     text-align: center;
@@ -31,6 +35,19 @@ nav{
     background-image: linear-gradient(rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0));
 }
 
+.peru{
+    font-size: 30px;
+}
+
+.title{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin: auto;
+    margin-top: 6%;
+}
+
 .logo{
     color: white;
     font-size: 28px;
@@ -46,4 +63,47 @@ nav ul li a{
     text-decoration: none;
     font-weight: bold;
 
+}
+
+.bottons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bottons li{
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 90px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 10px;
+}
+
+.bottons li:hover{
+    border: 3px solid #0f49b4;
+    box-shadow: 0px 0px 20px 2px #0f49b449;
+}
+
+.caminho{
+    color: gray;
+    margin-left: 2vw;
+}
+
+.coteudo-pincipal{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+
+.molher{
+    background-color: #0f49b4;
+}
+
+.texto{
+    background-color: coral;
 }
