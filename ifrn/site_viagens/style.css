@@ -6,7 +6,7 @@
 }
 
 .content{
-    min-width: 100vw;
+    
 }
 
 .topo{
@@ -95,15 +95,21 @@ nav ul li a{
     margin-left: 2vw;
 }
 
-.coteudo-pincipal{
-    display: grid;
-    grid-template-columns: 15% 70% 15%;
+.conteudo-principal{
+    display: flex;
+    justify-content: center;
+    min-width: 600px;
+    margin-top: 20px;
 }
 
 .molher{
-    background-color: #0f49b4;
+    border: 1px solid black;
+    padding: 110px;
+    margin: 5px;
 }
 
 .texto{
-    background-color: coral;
+    border: 1px solid black;
+    padding: 900px 400px;
+    margin: 5px;;
 }
