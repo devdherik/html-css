@@ -5,9 +5,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.content{
-    
-}
 
 .topo{
     background-color: #144194;
@@ -103,13 +100,61 @@ nav ul li a{
 }
 
 .molher{
-    border: 1px solid black;
-    padding: 110px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
     margin: 5px;
+}
+
+.molher img{
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+    border-radius: 20px;
+}
+
+.nome-cami{
+    color: rgb(97, 97, 97);
+    margin: 15px 0px 0px 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.resumo-cami{
+    width: 200px;
+    color: gray;
+    margin: 15px 0px 0px 5px;
+    font-size: 16px;
 }
 
 .texto{
     border: 1px solid black;
-    padding: 900px 400px;
+    padding: 20px;
     margin: 5px;;
+}
+
+.main-text{
+    width: 900px;
+    font-size: 25px;
+    color: rgb(68, 68, 68);
+    font-weight: lighter;
+}
+
+.h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.machu-picchu2{
+    width: 850px;
+    margin: auto;
+    display: block;
+}
+
+.lista{
+    width: 900px;
+    font-size: 25px;
+    color: rgb(68, 68, 68);
+    font-weight: lighter;
+    margin-left: 30px;
 }
