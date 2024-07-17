@@ -11,10 +11,15 @@
     text-align: center;
     padding: 12px 0px 8px 0px;
     box-shadow: 20px 20px 20px 20px black;
+    height: 45px;
+}
+
+.logo-md{
+    height: 30px;
 }
 
 .hero{
-    height: 100vh;
+    height: 690px;
     width: 100%;
     background-image:url(imgs/machu-picchu-61-c.jpg);
     background-size: cover;
@@ -33,16 +38,16 @@ nav{
 }
 
 .peru{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .title{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 100px;
+    font-size: 70px;
     text-align: center;
     margin: auto;
-    margin-top: 6%;
+    margin-top: 2%;
 }
 
 .logo{
@@ -65,21 +70,27 @@ nav ul li a{
 .bottons{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    margin: 0px 310px;
 }
 
 .bottons li{
     list-style-type: none;
     background-color: rgb(255, 255, 255);
-    width: 150px;
-    height: 90px;
+    width: 140px;
+    height: 60px;
     text-align: center;
+    font-size: 12px;
     align-items: center;
     display: flex;
     justify-content: center;
-    margin: 20px 0px 20px 0px;
-    border: 2px solid rgb(158, 158, 158);
+    margin: 20px 10px 20px 0px;
+    border: 1px solid rgb(158, 158, 158);
     border-radius: 10px;
+}
+
+.bottons li p img{
+    width: 20px;
 }
 
 .bottons li:hover{
