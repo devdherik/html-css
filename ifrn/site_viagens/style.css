@@ -170,16 +170,56 @@ nav ul li a{
     margin-left: 30px;
 }
 
+.div-table{
+    display: flex;
+    justify-content: center;
+}
+
 table{
     width: 400px;
     border-collapse: collapse;
+    margin-bottom: 40px;
+}
+td, th{
+    border: 2px solid rgb(231, 231, 231);
+    text-align: left;
+}
+.thotel{
+    background-color: #133960;
+    color: white;
+    padding: 10px 250px;
+    border: none;
 }
 
-tr{
-    background-color: gray;
+.tnota{
+    background-color: #133960;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+.tlink{
+    background-color: #133960;
+    color: white;
+    padding: 10px 40px;
+    border: none;
 }
 
 td{
-    border: 2px solid black;
-    padding: 8px;
+   padding: 10px;
+}
+
+tr:nth-child(odd) td{
+    background-color: rgb(231, 231, 231);
+}
+
+.lista2{
+    width: 900px;
+    font-size: 25px;
+    color: rgb(68, 68, 68);
+    font-weight: lighter;
+    margin-left: 30px;
+}
+
+.lista2 li{
+    margin: 20px;
 }
