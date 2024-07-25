@@ -50,9 +50,9 @@ nav{
     margin-top: 6%;
 }
 
-.logo{
+.logo img{
     color: white;
-    font-size: 28px;
+    width: 12em;
 }
 
 nav ul li{
@@ -264,7 +264,7 @@ tr:nth-child(odd) td{
 }
 
 footer{
-    height: 30em;
+    height: 35em;
     background-color: #0c3683;
 }
 
@@ -304,9 +304,87 @@ footer{
 }
 
 .guia-d{
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0);
+    width: 400px;
+    font-size: 1.2em;
+    text-align: justify;
+    color: white;
+    margin: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+
+.guia-d img{
+    width: 380px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 40px;
 }
 
 .melhores-d{
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0);
+    width: 400px;
+    font-size: 1.2em;
+    text-align: justify;
+    color: white;
+    margin: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
 }
+
+.melhores-d img{
+    width: 280px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.acessos ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.acessos ul li{
+    margin: 0px 20px 20px 20px;
+    font-weight: bolder;
+    color: white;
+}
+.acessos ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.redes-sociais{
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais ul{
+    list-style-type: none;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais ul li{
+    margin: 10px;
+}
+
+.redes-sociais ul li a img{
+
+    background-color: #ffffff;
+    width: 50px;    
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+.copyright{
+    text-align: center;
+    margin: 20px 20px 0px 20px;
+    color: white;
+}
+
