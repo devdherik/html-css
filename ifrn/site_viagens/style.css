@@ -117,6 +117,12 @@ nav ul li a{
     margin-top: 20px;
 }
 
+.caminho a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
 .molher{
     border: 1px solid rgba(0, 0, 0, 0);
     padding: 10px;
