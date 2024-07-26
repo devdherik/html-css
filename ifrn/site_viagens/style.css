@@ -9,7 +9,7 @@
 .topo{
     background-color: #144194;
     text-align: center;
-    padding: 12px 0px 8px 0px;
+    padding: 12px 0px 42px 0px;
     box-shadow: 20px 20px 20px 20px black;
     height: 45px;
 }
@@ -43,11 +43,13 @@ nav{
 
 .title{
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
     font-size: 70px;
     text-align: center;
     margin: auto;
     margin-top: 6%;
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.444);
 }
 
 .logo img{
@@ -90,7 +92,12 @@ nav ul li a{
 }
 
 .bottons li p img{
-    width: 20px;
+    width: 30px;
+}
+
+.bottons li a{
+    text-decoration: none;
+    color: black;
 }
 
 .bottons li:hover{
@@ -114,6 +121,7 @@ nav ul li a{
     border: 1px solid rgba(0, 0, 0, 0);
     padding: 10px;
     margin: 5px;
+    
 }
 
 .molher img{
@@ -134,9 +142,11 @@ nav ul li a{
 .resumo-cami{
     width: 200px;
     color: gray;
-    margin: 15px 0px 0px 5px;
+    margin: 15px 0px 40px 5px;
     font-size: 16px;
 }
+
+
 
 .texto{
     border: 1px solid rgba(0, 0, 0, 0);
@@ -290,12 +300,17 @@ footer{
     border-radius: 10px;
 }
 .bottonsf li p img{
-    width: 20px;
+    width: 30px;
+}
+
+.bottonsf li a{
+    text-decoration: none;
+    color: black;
 }
 
 .bottonsf li:hover{
-    border: 1px solid #0f49b4;
-    box-shadow: 0px 0px 20px 2px #0f49b432;
+    border: 1px solid #696969;
+    box-shadow: 0px 0px 50px 2px #39393923;
 }
 
 .topicos{
