@@ -6,6 +6,7 @@
 
 .bg{
     background-color: rgb(197, 197, 197);
+    height: 100%;
 }
 main{
     display: flex;
@@ -14,7 +15,7 @@ main{
 }
 .left-side{
     background-color: rgb(0, 0, 158);
-    height: 80em;
+    height: 50em;
     width: 18em;
     margin: 2em 0em;
 }
@@ -77,7 +78,7 @@ main{
 
 .right-side{
     background-color: rgb(255, 255, 255);
-    height: 80em;
+    height: 50em;
     width: 30em;
     margin: 2em 0em;
 }
@@ -131,4 +132,5 @@ li{
     color: rgb(48, 48, 48);
     font-size: .8em;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: .8;
 }
