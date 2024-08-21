@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.tudo{
+    background-color: rgb(17, 8, 100);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao1{
+    
+}
+
+.dois_quadros{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+}
+
+.tres_quadros{
+    display: flex;
+    justify-content: center;
+}
+
+
+.primeiro_quadro, .segundo_quadro, .terceiro_quadro, .quarto_quadro, .quinto_quadro{
+    margin: 1em;
+}
+
+
+.primeiro_quadro{
+    background-color: aqua;
+    height: 16em;
+    width: 16em;
+}
+.segundo_quadro{
+    background-color: rgb(0, 255, 55);
+    height: 16em;
+    width: 16em;
+}
+.terceiro_quadro{
+    background-color: rgb(255, 255, 255);
+    height: 10em;
+    width: 10em;
+}
+.quarto_quadro{
+    background-color: rgb(255, 0, 170);
+    height: 10em;
+    width: 10em;
+}
+.quinto_quadro{
+    background-color: rgb(255, 0, 0);
+    height: 10em;
+    width: 10em;
+}
