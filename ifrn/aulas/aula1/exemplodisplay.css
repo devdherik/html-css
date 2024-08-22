@@ -5,9 +5,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
-    background-color: rgb(4, 4, 97);
-}
+   
 
 
 .tudo{
@@ -17,21 +15,18 @@ body{
 }
 
 .secao1{
-    background-color: rgba(0, 0, 0, 0);
-    margin: 10em;
+    background-color: rgb(60, 0, 255);
+    width: 100vw;
 }
 
 .dois_quadros{
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
     justify-content: center;
 }
 
 .tres_quadros{
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    display: flex;
     justify-content: center;
-    place-items: center;
 }
 
 
@@ -39,6 +34,8 @@ body{
 .primeiro_quadro{
     background-color: rgb(255, 255, 255);
     box-shadow: 3px 3px 30px 0px rgba(0, 0, 0, 0.518);
+    display: flex;
+    flex-direction: column;
 }
 
 .primeiro_quadro:hover{
@@ -59,7 +56,7 @@ body{
 .primeiro_quadro .infos{
     display: flex;
     justify-content: space-between;
-    margin: 1em;
+    margin: 0em 1em;
     color: rgb(127, 127, 127);
 }
 
@@ -72,6 +69,8 @@ body{
 .segundo_quadro{
     background-color: rgb(255, 255, 255);
     box-shadow: 3px 3px 30px 0px rgba(0, 0, 0, 0.518);
+    display: flex;
+    flex-direction: column;
 }
 
 .segundo_quadro:hover{
@@ -87,10 +86,13 @@ body{
 .segundo_quadro .infos{
     display: flex;
     justify-content: space-between;
-    place-items: end;
     margin: 1em;
     color: rgb(127, 127, 127);
     
+}
+
+.segundo_quadro .infos p{
+
 }
 
 
@@ -136,6 +138,64 @@ body{
 
 
 
+.quarto_quadro{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 30px 0px rgba(0, 0, 0, 0.518);
+}
+
+.quarto_quadro:hover{
+    box-shadow: 3px 3px 20px 0px rgba(255, 255, 255, 0.518);
+}
+
+.quarto_quadro h1{
+    font-size: 1.1em;
+    margin: 1em;
+    color: rgb(58, 58, 58);
+}
+
+.quarto_quadro .infos{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    color: rgb(127, 127, 127);
+}
+
+
+
+
+
+
+
+
+
+
+
+.quinto_quadro{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 30px 0px rgba(0, 0, 0, 0.518);
+}
+
+.quinto_quadro:hover{
+    box-shadow: 3px 3px 20px 0px rgba(255, 255, 255, 0.518);
+}
+
+.quinto_quadro h1{
+    font-size: 1.1em;
+    margin: 1em;
+    color: rgb(58, 58, 58);
+}
+
+.quinto_quadro .infos{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    color: rgb(127, 127, 127);
+}
+
+
+
+
+
 
 
 
@@ -143,10 +203,10 @@ body{
 
 
 .quarto_quadro{
-    background-color: rgb(255, 0, 170);
+    background-color: rgb(255, 255, 255);
 }
 .quinto_quadro{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .primeiro_quadro, .segundo_quadro{
@@ -164,3 +224,15 @@ body{
 .primeiro_quadro, .segundo_quadro, .terceiro_quadro, .quarto_quadro, .quinto_quadro{
     border-radius: .8em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
