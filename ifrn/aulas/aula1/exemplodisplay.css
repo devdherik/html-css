@@ -5,18 +5,14 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-   
-
-
 .tudo{
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .secao1{
     background-color: rgb(60, 0, 255);
-    width: 100vw;
+    padding: 10em 0em;
 }
 
 .dois_quadros{
@@ -28,8 +24,6 @@
     display: flex;
     justify-content: center;
 }
-
-
 
 .primeiro_quadro{
     background-color: rgb(255, 255, 255);
@@ -60,12 +54,6 @@
     color: rgb(127, 127, 127);
 }
 
-
-
-
-
-
-
 .segundo_quadro{
     background-color: rgb(255, 255, 255);
     box-shadow: 3px 3px 30px 0px rgba(0, 0, 0, 0.518);
@@ -91,25 +79,6 @@
     
 }
 
-.segundo_quadro .infos p{
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .terceiro_quadro{
     background-color: rgb(255, 255, 255);
     box-shadow: 3px 3px 30px 0px rgba(0, 0, 0, 0.518);
@@ -131,12 +100,6 @@
     margin: 1em;
     color: rgb(127, 127, 127);
 }
-
-
-
-
-
-
 
 .quarto_quadro{
     background-color: rgb(255, 255, 255);
@@ -160,16 +123,6 @@
     color: rgb(127, 127, 127);
 }
 
-
-
-
-
-
-
-
-
-
-
 .quinto_quadro{
     background-color: rgb(255, 255, 255);
     box-shadow: 3px 3px 30px 0px rgba(0, 0, 0, 0.518);
@@ -191,17 +144,6 @@
     margin: 1em;
     color: rgb(127, 127, 127);
 }
-
-
-
-
-
-
-
-
-
-
-
 .quarto_quadro{
     background-color: rgb(255, 255, 255);
 }
@@ -236,3 +178,82 @@
 
 
 
+
+
+
+
+
+.secao2{
+
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 3em;
+    margin: 10vw;
+    background-color: red;
+    
+
+}
+
+.bloco1, .bloco2, .bloco3, .bloco4, .bloco5, .bloco6, .bloco7, .bloco8, .bloco9{
+
+    width: 20vw;
+    height: 20vw;
+    justify-content: center;
+    background-color: aqua; /* Cor de fundo definida para todos os blocos */
+    border-radius: 10px;
+
+}
+
+.bloco1{
+    background-color: aqua;
+
+}
+
+.bloco1 img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.bloco1 p{
+    font-size: 1.1vw;
+    margin: .5em;
+}
+
+.bloco2{
+    background-color: aqua;
+}
+
+.bloco3{
+    background-color: aqua;
+}
+
+.bloco4{
+    background-color: aqua;
+}
+
+.bloco5{
+    background-color: aqua;
+}
+
+.bloco6{
+    background-color: aqua;
+}
+
+.bloco7{
+    background-color: aqua;
+}
+
+.bloco8{
+    background-color: aqua;
+}
+
+.bloco9{
+    background-color: aqua;
+}
