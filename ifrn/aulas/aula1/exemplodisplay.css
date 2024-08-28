@@ -194,7 +194,7 @@
     height: 100vh;
     gap: 3em;
     margin: 10vw;
-    background-color: red;
+    margin-bottom: 60vh;
     
 
 }
@@ -206,54 +206,254 @@
     justify-content: center;
     background-color: aqua; /* Cor de fundo definida para todos os blocos */
     border-radius: 10px;
+    box-shadow: 3px 3px 30px 0px rgba(0, 0, 0, 0.219);
 
 }
 
 .bloco1{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 
 }
-
 .bloco1 img{
     width: 100%;
     height: 60%;
     border-radius: 10px 10px 0px 0px;
-
 }
-
 .bloco1 p{
     font-size: 1.1vw;
     margin: .5em;
 }
+.bloco1 .infos{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    color: rgb(127, 127, 127);
+}
+.bloco1 .infos p{
+    font-size: .7vw;
+}
+
+
+
+
 
 .bloco2{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
+
 }
+.bloco2 img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0px 0px;
+}
+.bloco2 p{
+    font-size: 1.1vw;
+    margin: .5em;
+}
+.bloco2 .infos{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    color: rgb(127, 127, 127);
+}
+.bloco2 .infos p{
+    font-size: .7vw;
+}
+
 
 .bloco3{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
+
 }
+.bloco3 img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0px 0px;
+}
+.bloco3 p{
+    font-size: 1.1vw;
+    margin: .5em;
+}
+.bloco3 .infos{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    color: rgb(127, 127, 127);
+}
+.bloco3 .infos p{
+    font-size: .7vw;
+}
+
+
+
+
+
+
+
 
 .bloco4{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
+
 }
+.bloco4 img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0px 0px;
+}
+.bloco4 p{
+    font-size: 1.1vw;
+    margin: .5em;
+}
+.bloco4 .infos{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    color: rgb(127, 127, 127);
+}
+.bloco4 .infos p{
+    font-size: .7vw;
+}
+
+
+
+
 
 .bloco5{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
+
 }
+.bloco5 img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0px 0px;
+}
+.bloco5 p{
+    font-size: 1.1vw;
+    margin: .5em;
+}
+.bloco5 .infos{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    color: rgb(127, 127, 127);
+}
+.bloco5 .infos p{
+    font-size: .7vw;
+}
+
+
+
+
+
+
+
 
 .bloco6{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
+
 }
+.bloco6 img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0px 0px;
+}
+.bloco6 p{
+    font-size: 1.1vw;
+    margin: .5em;
+}
+.bloco6 .infos{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    color: rgb(127, 127, 127);
+}
+.bloco6 .infos p{
+    font-size: .7vw;
+}
+
+
+
+
+
+
+
 
 .bloco7{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
+
 }
+.bloco7 img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0px 0px;
+}
+.bloco7 p{
+    font-size: 1.1vw;
+    margin: .5em;
+}
+.bloco7 .infos{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    color: rgb(127, 127, 127);
+}
+.bloco7 .infos p{
+    font-size: .7vw;
+}
+
+
+
+
 
 .bloco8{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
+
+}
+.bloco8 img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0px 0px;
+}
+.bloco8 p{
+    font-size: 1.1vw;
+    margin: .5em;
+}
+.bloco8 .infos{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    color: rgb(127, 127, 127);
+}
+.bloco8 .infos p{
+    font-size: .7vw;
 }
 
+
+
+
+
+
+
+
 .bloco9{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
+
+}
+.bloco9 img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0px 0px;
+}
+.bloco9 p{
+    font-size: 1.1vw;
+    margin: .5em;
+}
+.bloco9 .infos{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    color: rgb(127, 127, 127);
+}
+.bloco9 .infos p{
+    font-size: .7vw;
 }
