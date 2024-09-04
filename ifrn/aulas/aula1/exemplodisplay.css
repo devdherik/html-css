@@ -10,9 +10,93 @@
     align-items: center;
 }
 
+
+
+
+.logo-md{
+    height: 30px;
+}
+
+.hero{
+    height: 690px;
+    width: 100%;
+    background-image:url(imgs/machu-picchu-61-c.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: darkblue;
+}
+
+.logo img{
+    color: white;
+    width: 10em;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0em .4em;
+    background-color: darkblue;
+    color: white;
+    padding: 1em .3em 1em .3em;
+}
+
+nav ul li:hover{
+    list-style-type: none;
+    margin: 0em .4em;
+    background-color: rgb(32, 45, 116);
+    color: white;
+    padding: 1em .3em 1em .3em;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+
+.app{
+    background-color: rgb(0, 110, 255);
+    border-radius: 10px;
+}
+
+
+.busca img{
+    width: 1.5em;
+    background-color: red;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .secao1{
     background-color: rgb(60, 0, 255);
-    padding: 10em 0em;
+    padding: 4em 0em 10em 0em;
 }
 
 .dois_quadros{
