@@ -10,92 +10,50 @@
     align-items: center;
 }
 
-
-
-
-.logo-md{
-    height: 30px;
+header{
+    background-color: #154194;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.hero{
-    height: 690px;
-    width: 100%;
-    background-image:url(imgs/machu-picchu-61-c.jpg);
-    background-size: cover;
-    background-position: center;
+.logo img{
+    width: 20em;
 }
 
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    background-color: darkblue;
 }
 
-.logo img{
+nav div{
+    margin: 1em;
+    padding: 1em .5em;
     color: white;
-    width: 10em;
+    font-size: 1.2em;
 }
 
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    margin: 0em .4em;
-    background-color: darkblue;
-    color: white;
-    padding: 1em .3em 1em .3em;
+nav .app{
+    background-color: rgb(0, 102, 255);
+    border-radius: .7em;
 }
 
-nav ul li:hover{
-    list-style-type: none;
-    margin: 0em .4em;
-    background-color: rgb(32, 45, 116);
-    color: white;
-    padding: 1em .3em 1em .3em;
+nav div:hover{
+    background-color: rgb(9, 48, 121);
+    border-radius: .7em;
 }
 
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1em;
+.search img{
+    width: 4em;
+    background-color: rgb(29, 112, 168);
+    padding: .1em;
+    border-radius: 50%;
 }
-
-
-
-.app{
-    background-color: rgb(0, 110, 255);
-    border-radius: 10px;
-}
-
-
-.busca img{
-    width: 1.5em;
-    background-color: red;
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 .secao1{
-    background-color: rgb(60, 0, 255);
+    background-color: #0F3374;
     padding: 4em 0em 10em 0em;
 }
 
@@ -269,21 +227,13 @@ nav ul li a{
 
 .secao2{
 
-    display: grid;
-    place-items: center;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, auto);
+    display: flex;
+    background-color: rgba(255, 0, 0, 0);
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    gap: 3em;
-    margin: 10vw;
-    margin-bottom: 60vh;
-    
-
+    margin: 5em 1em 5em 1em;   
 }
 
-.bloco1, .bloco2, .bloco3, .bloco4, .bloco5, .bloco6, .bloco7, .bloco8, .bloco9{
+.bloco1, .bloco2, .bloco3{
 
     width: 20vw;
     height: 20vw;
@@ -291,6 +241,7 @@ nav ul li a{
     background-color: aqua; /* Cor de fundo definida para todos os blocos */
     border-radius: 10px;
     box-shadow: 3px 3px 30px 0px rgba(0, 0, 0, 0.219);
+    margin: 0em 3em;
 
 }
 
@@ -370,174 +321,39 @@ nav ul li a{
 
 
 
-
-
-
-
-
-.bloco4{
-    background-color: rgb(255, 255, 255);
-
+.secao3{
+    background-color: grey;
 }
-.bloco4 img{
-    width: 100%;
-    height: 60%;
-    border-radius: 10px 10px 0px 0px;
+
+.viaje{
+    font-size: 2em;
+    font-weight: bolder;
 }
-.bloco4 p{
-    font-size: 1.1vw;
-    margin: .5em;
+
+.resolva{
+    font-size: 1.2em;
+    color: blue;
+    font-weight: bold;
 }
-.bloco4 .infos{
+
+
+.bt{
     display: flex;
-    justify-content: space-between;
-    margin: 1em;
-    color: rgb(127, 127, 127);
-}
-.bloco4 .infos p{
-    font-size: .7vw;
 }
 
-
-
-
-
-.bloco5{
-    background-color: rgb(255, 255, 255);
-
-}
-.bloco5 img{
-    width: 100%;
-    height: 60%;
-    border-radius: 10px 10px 0px 0px;
-}
-.bloco5 p{
-    font-size: 1.1vw;
-    margin: .5em;
-}
-.bloco5 .infos{
-    display: flex;
-    justify-content: space-between;
-    margin: 1em;
-    color: rgb(127, 127, 127);
-}
-.bloco5 .infos p{
-    font-size: .7vw;
+.bt1, .bt2, .bt3, .bt4, .bt5, .bt6, .bt7, .bt8{
+    background-color: white;
+    margin: 0em .8em;
+    text-align: center;
+    padding: 0px;
 }
 
 
-
-
-
-
-
-
-.bloco6{
-    background-color: rgb(255, 255, 255);
-
-}
-.bloco6 img{
-    width: 100%;
-    height: 60%;
-    border-radius: 10px 10px 0px 0px;
-}
-.bloco6 p{
-    font-size: 1.1vw;
-    margin: .5em;
-}
-.bloco6 .infos{
-    display: flex;
-    justify-content: space-between;
-    margin: 1em;
-    color: rgb(127, 127, 127);
-}
-.bloco6 .infos p{
-    font-size: .7vw;
+.bt1 div img, .bt2 div img, .bt3 div img, .bt4 div img, .bt5 div img, .bt6 div img, .bt7 div img, .bt8 div img{
+    width: 6em;
 }
 
 
-
-
-
-
-
-
-.bloco7{
-    background-color: rgb(255, 255, 255);
-
-}
-.bloco7 img{
-    width: 100%;
-    height: 60%;
-    border-radius: 10px 10px 0px 0px;
-}
-.bloco7 p{
-    font-size: 1.1vw;
-    margin: .5em;
-}
-.bloco7 .infos{
-    display: flex;
-    justify-content: space-between;
-    margin: 1em;
-    color: rgb(127, 127, 127);
-}
-.bloco7 .infos p{
-    font-size: .7vw;
-}
-
-
-
-
-
-.bloco8{
-    background-color: rgb(255, 255, 255);
-
-}
-.bloco8 img{
-    width: 100%;
-    height: 60%;
-    border-radius: 10px 10px 0px 0px;
-}
-.bloco8 p{
-    font-size: 1.1vw;
-    margin: .5em;
-}
-.bloco8 .infos{
-    display: flex;
-    justify-content: space-between;
-    margin: 1em;
-    color: rgb(127, 127, 127);
-}
-.bloco8 .infos p{
-    font-size: .7vw;
-}
-
-
-
-
-
-
-
-
-.bloco9{
-    background-color: rgb(255, 255, 255);
-
-}
-.bloco9 img{
-    width: 100%;
-    height: 60%;
-    border-radius: 10px 10px 0px 0px;
-}
-.bloco9 p{
-    font-size: 1.1vw;
-    margin: .5em;
-}
-.bloco9 .infos{
-    display: flex;
-    justify-content: space-between;
-    margin: 1em;
-    color: rgb(127, 127, 127);
-}
-.bloco9 .infos p{
-    font-size: .7vw;
+.bt1 p, .bt2 p, .bt3 p, .bt4 p, .bt5 p, .bt6 p, .bt7 p, .bt8 p{
+    font-size: 1.4em;
 }
