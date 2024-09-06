@@ -30,7 +30,7 @@ nav div{
     margin: 1em;
     padding: 1em .5em;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 nav .app{
@@ -322,38 +322,46 @@ nav div:hover{
 
 
 .secao3{
-    background-color: grey;
+    background-color: rgb(225, 225, 225);
 }
 
 .viaje{
     font-size: 2em;
     font-weight: bolder;
+    margin: 1vh 3vw;
+    padding-top: 3vh;
 }
 
 .resolva{
     font-size: 1.2em;
     color: blue;
     font-weight: bold;
+    margin: 1vh 3vw;
 }
 
 
 .bt{
     display: flex;
+    justify-content: center;
 }
 
 .bt1, .bt2, .bt3, .bt4, .bt5, .bt6, .bt7, .bt8{
     background-color: white;
-    margin: 0em .8em;
+    align-items: center;
     text-align: center;
-    padding: 0px;
+    margin: 2%;
+    width: 10%;
+    padding: 2vh 0vh;
+    border-radius: .6em;
 }
 
 
 .bt1 div img, .bt2 div img, .bt3 div img, .bt4 div img, .bt5 div img, .bt6 div img, .bt7 div img, .bt8 div img{
-    width: 6em;
+    width: 4em;
+    margin: 1em 0em;
 }
 
 
 .bt1 p, .bt2 p, .bt3 p, .bt4 p, .bt5 p, .bt6 p, .bt7 p, .bt8 p{
-    font-size: 1.4em;
+    font-size: 1em;
 }
