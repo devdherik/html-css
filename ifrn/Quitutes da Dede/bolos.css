@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    margin: 0px;
+    background-color: rgb(253, 227, 255);
+}
+
+header{
+    background-color: #9207ff;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+    .logo img{
+        width: 50em;
+    }
+    
+}
+main{
+    display: grid;
+    place-items: center;
+}
+
+.bolos{
+    background-color: rgb(251, 136, 255);
+    width: 80vw;
+    height: auto;
+    padding: 0px 0px 20px 0px;
+    margin-top: 40px;
+}
+
+.title{
+    background-color: white;
+    font-size: 4em;
+    font-weight: bolder;
+    color: #9207ff;
+}
+
+
+.bolo1{
+    display: flex;
+}
+.bolo1 img{
+    width: 20%;
+    margin: 30px;
+    border-radius: 20px;
+}
