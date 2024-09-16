@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    text-decoration: none;
 }
 body{
     margin: 0px;
@@ -213,7 +214,7 @@ header{
     .tortasop{
         display: flex;
         justify-content: space-around;
-        height: 70%;
+        height: 75%;
     }
     .torta1{
         margin: 40px;
