@@ -55,6 +55,9 @@ main{
         font-size: 4em;
         color: #ffffff;
     }
+    .preco{
+        text-align: right;
+    }
     .ingredientes{
         display: block;
         font-size: 2em;
