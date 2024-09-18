@@ -68,17 +68,3 @@ main{
     margin: 30px;
     border-radius: 20px;
 }
-
-.voltar{
-    align-items: center;
-    padding: 20px;
-    background-color: #9207ff;
-    color: white;
-    margin-top: 30px;
-    font-size: 2em;
-
-    a{
-        text-decoration: none;
-        color: white;
-    }
-}
