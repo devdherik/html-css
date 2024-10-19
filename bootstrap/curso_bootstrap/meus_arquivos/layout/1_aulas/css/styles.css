@@ -1,0 +1,105 @@
+
+/*XS*/
+h1{
+    color: red;
+}
+
+/*SM*/
+@media (min-width: 576px){
+    h1{
+        color: blue;
+    }
+}
+
+
+/*MD*/
+@media (min-width: 768px){
+    h1{
+        color: green;
+    }
+}
+
+body{
+    background-color: lightblue;
+}
+
+.container{
+    background-color: #999;
+}
+
+.container-fluid{
+    background-color: red;
+}
+
+.container-sm{
+    margin-bottom: 30px;
+    border: 2px solid blue;
+}
+
+.container-md{
+    margin-bottom: 30px;
+    border: 2px solid crimson;
+}
+.container-lg{
+    margin-bottom: 30px;
+    border: 2px solid chocolate;
+}
+
+
+/*GRID*/
+
+.container{
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-bottom: 300px;
+}
+
+.row{
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+.col, .col-4, .col-2, .col-1, .col-11, .col-6, .col-3{
+    border: 2px dashed red;
+    height: 100%;
+    margin: 0;
+    padding: 0px;
+}
+
+#largura-limitada{
+    max-width: 500px;
+}
+
+
+
+
+.vertical{
+    height: 250px;
+    border-color: coral;
+}
+
+.vertical .row{
+    height: 100%;
+}
+
+.col-6, .col-3{
+    height: 50px;
+}
+
+
+/*GUTTER*/
+
+
+#gutter .row{
+    height: 200px;
+}
+
+#gutter .col-6{
+    margin: auto;
+}
+
+.row p{
+    border: 2px solid green;
+}
