@@ -1,0 +1,48 @@
+.row{
+    background-color: rgb(97, 97, 97);
+    margin-bottom: 30px;
+    padding: 0px 10px 0px 0px;
+}
+h1{
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.col-9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bi{
+    text-align: center;
+}
+
+.icon1 p, .icon2 p, .icon3 p{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: justify;
+}
+
+.icon1{
+    .bi{
+        color: rgb(0, 0, 0);
+        font-size: 120px;
+    }
+}
+
+.icon2{
+    .bi{
+        color: brown;
+        font-size: 90px;
+    }
+
+}
+
+.icon3{
+    .bi{
+        color: white;
+        font-size: 60px;
+    }
+}
