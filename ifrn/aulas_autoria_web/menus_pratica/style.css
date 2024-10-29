@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(174, 199, 174);
+}
+
+.nav-container{
+    height: 100px;
+    background-color: rgb(61, 92, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5em .5em;
+    margin: 5px 10px;
+    color: white;
+    text-align: center;
+    border: 2px solid rgb(205, 241, 180);
+    font-weight: bolder;
+    position: relative;
+}
+
+.nav-item:hover{
+    transition: .15s;
+    background-color: rgb(205, 241, 180);
+    color: rgb(61, 92, 61);
+    font-weight: bolder;
+}
+
+.submenu{
+    display: none;
+    background-color: rgb(86, 175, 83);
+    color: #fff;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.submenu-item{
+    padding: 10px;
+}
+
+.submenu-item:hover{
+    background-color: #fff;
+    color: rgb(86, 175, 83);
+}
+
+.nav-item:hover .submenu{
+
+    display: block;
+    position: absolute;
+    top: 36px;
+    left: auto;
+}
+
+
+
+
+
+.submenu-c{
+    display: none;
+    background-color: rgb(86, 175, 83);
+    color: #fff;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.submenu-item-c{
+    padding: 10px;
+}
+
+.submenu-item-c:hover{
+    background-color: #fff;
+    color: rgb(86, 175, 83);
+}
+
+.submenu-item-c:hover .submenu-c{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 103px;
+}
