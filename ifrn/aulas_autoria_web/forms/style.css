@@ -6,18 +6,72 @@
 
 
 
-body{
-    background-color: lightcyan;
+body {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center;    /* Alinha verticalmente */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .container {
+    width: 800px;           /* Largura do quadrado */
+    height: 900px;          /* Altura do quadrado */
+    background-color: #3498db; /* Cor de fundo do quadrado */
+    margin: 100px 0px 100px 0px;
+  }
+
+  .title{
+    text-align: center;
+    color: white;
+    margin: 40px 0px 30px 0px;
+  }
+
+  .s1{
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    font-size: 1.3em;
+    margin: px;
+    color: white;
+    div{
+        margin: 10px 10px 0px 10px;
+    }
+  }
+  .inp1{
+    width: 300px;
+    height: 30px;
+  }
 
-.form{
-    background-color: cyan;
-}
+  .inp2{
+    width: 300px;
+    height: 30px;
+  }
 
-.container {
-    background-color: #f3f3f3;
-}
+  .title2{
+    color: white;
+    margin: 20px 0px 0px 90px;
+  }
+  
+
+  .s2{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    font-size: 1.3em;
+    margin-left: 80px;
+    color: white;
+    div{
+        margin: 10px 10px 0px 10px;
+    }
+  }
+
+  .s3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+    color: white;
+    div{
+        margin: 50px 10px 0px 10px;
+    }
+  }
