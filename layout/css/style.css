@@ -120,6 +120,7 @@ ul{
 
 
 
+
 .praca{
     display: flex;
     justify-content: center; 
@@ -358,7 +359,6 @@ h2{
     background-color: rgba(84, 132, 4, 1);
     margin: 2rem 0;
     padding: 2em;
-    padding: 5em;
 }
 
 .como-chegar-title{
@@ -379,5 +379,41 @@ h2{
     object-fit: contain;
 }
 
+.parceiro-img{
+    margin: 10px;
 
+    img{
+        object-fit: cover;
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.voltar-text{
+    color: rgba(8, 64, 5, 1);
+}
+
+.footer-p1{
+    background-color: rgba(85, 134, 5, 1);
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.footer-p1 > div > p{
+    color:  white;
+}
+.form-control{
+    width: 80%;
+}
+
+.form-container {
+    padding: 15px;
+}
+.btn-custom {
+    background-color: #333333; /* Cor do botão */
+    color: white;
+}
+.btn-custom:hover {
+    background-color: #555555;
+}
 
