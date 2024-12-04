@@ -10,7 +10,6 @@
 
 body{
     background-color: #91B05D;
-    margin-bottom: 500px;
 }
 
 
@@ -210,7 +209,8 @@ ul{
         object-fit: cover;
         display: block;
     }
-    
+
+
 
 }
 
@@ -271,7 +271,7 @@ h2{
 }
 
 .mais-info-content{
-    margin: 0px 0% 0px 0px;
+    margin: 0;
 
 }
 
@@ -393,27 +393,72 @@ h2{
     color: rgba(8, 64, 5, 1);
 }
 
-.footer-p1{
-    background-color: rgba(85, 134, 5, 1);
-    padding: 20px 40px 20px 40px;
-    border-radius: 20px 20px 0px 0px;
-}
 
-.footer-p1 > div > p{
-    color:  white;
-}
-.form-control{
-    width: 80%;
-}
 
-.form-container {
-    padding: 15px;
+.newsletter-container {
+    background-color: #6b9c36; /* Cor verde */
+    width: 70%;
+    color: white;
+    padding: 30px;
+    border-radius: 20px 20px 0 0; /* Bordas arredondadas no topo */
 }
 .btn-custom {
     background-color: #333333; /* Cor do botão */
     color: white;
+    border-radius: 0 20px 20px 0; /* Bordas arredondadas do botão */
+    font-size: auto;
 }
 .btn-custom:hover {
     background-color: #555555;
 }
+.form-control {
+    border-radius: 20px 0 0 20px; /* Bordas arredondadas do campo */
+}
 
+@media (max-width: 991px) {
+
+    .newsletter-container{
+        width: 100%;
+    }
+}
+
+
+.footer-container {
+    background-color: rgba(217, 228, 199, 1); /* Cor do fundo */
+    padding: 30px 20px;
+    font-size: 14px;
+    color: #2a3d23; /* Cor do texto */
+}
+.footer-logo {
+    background-color: rgba(255, 0, 0, 0); /* Cor de fundo temporária para a logo */
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.footer-links a {
+    text-decoration: none;
+    color: #2a3d23;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.social-icons a {
+    font-size: 24px;
+    color: #2a3d23;
+    margin: 0 10px;
+}
+.social-icons a:hover {
+    color: #6b9c36;
+}
+.copyright {
+    font-size: 12px;
+    text-align: center;
+    color: #666;
+    
+}
+.img-footer{
+    width: 150px;
+}
