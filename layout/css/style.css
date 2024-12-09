@@ -12,6 +12,9 @@ body{
     background-color: #91B05D;
 }
 
+.text-justify{
+    text-align: justify;
+}
 
 .nav, .div-form-mobile{
     background-color: #d9e4c7;
@@ -42,6 +45,12 @@ ul{
     width: 0px;
 }
 
+.form-pesquisa{
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 5px 10px 5px 10px;
+}
+
 .pesquisa{
     width: 50%;
     background-color: #548404;
@@ -59,6 +68,9 @@ ul{
 
 }
 
+.offcanvas{
+    --bs-offcanvas-width: 300px;
+}
 
 
 
@@ -316,6 +328,10 @@ h2{
 
 .icones-acesso-rapido-img{
     width: 70%;
+}
+
+.text-succsess{
+    color: #084005;
 }
 
 .faq{
