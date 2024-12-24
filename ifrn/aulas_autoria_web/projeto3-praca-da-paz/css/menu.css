@@ -45,3 +45,32 @@
       transform: translateY(0);
     }
   }
+
+
+
+.menu-parcerias{
+  display: none;
+}
+
+.parcerias:hover .menu-parcerias{
+  display: block;
+  position: absolute;
+  background-color: #A9D98B;
+  left: 30px;
+  top: 168px;
+  color: darkgreen;
+  border-radius: 5px;
+  animation: fadeIn 0.3s ease-in-out;
+  padding-top: 10px;
+}
+
+.menu-parcerias-item{
+  width: 10em;
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+
+.menu-parcerias-item:hover{
+  color: white;
+  transition: color .5s;
+}
